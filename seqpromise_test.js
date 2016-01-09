@@ -1,4 +1,4 @@
-var sequential = require('.');
+var seqexec = require('.');
 
 var a = function() {
     return new Promise(function(resolve, reject){
@@ -27,7 +27,7 @@ var c = function() {
     });
 };
 
-sequential.seqPromise([a,b,c]).then(function(){
+seqexec.seqPromise([a,b,c]).then(function(){
     console.log("Done");
 }).catch(function(err){
     console.log("Error", err);
