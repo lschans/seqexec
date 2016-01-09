@@ -4,7 +4,7 @@
   "description": "Sequence async functions in order for ES5 nodejs",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
