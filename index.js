@@ -2,9 +2,9 @@ var Promise = require('es6-promise').Promise;
 
 /**
  * Synchronous Promise iteration
- * @param arr. Array with promise-functions to iterate over.
+ * @method seqPromise
+ * @param promiseArray  Array with promise-functions to iterate over.
  * @returns {Promise}
- *
  */
 
 var seqPromise = function(promiseArray) {
